@@ -85,6 +85,14 @@ Node package manager es un manejador de paquetes de node y gestor de dependencia
 * Un repositorio de paquetes.
 * Un CLI para interactuar con el repo y el proyecto.
 
+#### **Instalación**
+
+**Versiones válidas:** 12.x.x, 14.x.x y 16.x.x
+
+[Descargar LTS](https://nodejs.org/es/download/)
+node -v
+npm -v
+
 #### **Paquetes**
 
 Son módulos distribuidos en forma de librerías que resuelven alguna necesidad de desarrollo.
@@ -482,6 +490,16 @@ git status
 git log --oneline
 ```
 
+#### Generar llave ssh
+
+```
+# generar ssh key
+ssh-keygen
+
+# ver llave p[ublica
+cat ~/.ssh/id_rsa.pub
+```
+
 #### Hacer un commit
 
 ```
@@ -635,6 +653,13 @@ El machine learning (aprendizaje automático) es una rama de la inteligencia art
 #### Big Data
 
 Big Data es un término que describe el gran volumen de datos, tanto estructurados como no estructurados, que inundan los negocios cada día. Pero no es la cantidad de datos lo que es importante. Lo que importa con el Big Data es lo que las organizaciones hacen con los datos. Big Data se puede analizar para obtener ideas que conduzcan a mejores decisiones y movimientos de negocios estratégicos.
+
+#### Recursos para estudiar
+
+* [Cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf).
+* [La guía sencilla](https://rogerdudler.github.io/git-guide/index.es.html).
+* [Learning lab](https://lab.github.com/).
+* [Curso de John Mircha node](https://www.youtube.com/watch?v=FeJVdCz_uco&list=PLlrxD0HtieHje-_287YJKhY8tDeSItwtg).
 
 ### Herramientas
 

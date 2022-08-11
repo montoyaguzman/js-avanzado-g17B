@@ -21,7 +21,16 @@
 ### Node
 
 Node es un entorno multiplataforma para ejecutar JavaScript fuera del navegador, tiene su origen en el 2009 (Ryan Lenhiart).
-Con ayuda de node se puede:
+
+#### **Instalación**
+
+**Versiones válidas:** 12.x.x, 14.x.x y 16.x.x
+
+[Descargar LTS](https://nodejs.org/es/download/)
+node -v
+npm -v
+
+#### **Que se puede hacer con node**
 
 - Realizar API Rest.
 - Acceder a bases de datos relacionales y no relacionales.
@@ -84,14 +93,6 @@ Node package manager es un manejador de paquetes de node y gestor de dependencia
 
 * Un repositorio de paquetes.
 * Un CLI para interactuar con el repo y el proyecto.
-
-#### **Instalación**
-
-**Versiones válidas:** 12.x.x, 14.x.x y 16.x.x
-
-[Descargar LTS](https://nodejs.org/es/download/)
-node -v
-npm -v
 
 #### **Paquetes**
 
@@ -169,6 +170,7 @@ A continuación se presenta un listado de los framework front y back mas popular
 * [EJS](https://ejs.co/#docs).
 * [Nuxt](https://nuxtjs.org/docs/get-started/installation).
 * [Next](https://nextjs.org/docs).
+* [Hbs](https://bluuweb.github.io/node/20-hbs/).
 
 #### **Semantic Versión**
 
@@ -534,6 +536,12 @@ git fetch && git checkout develop
 
 #  bajar cambios de una rama remota a una local (cuando ya existe)
 git pull origin branchName
+
+# agregar una direccion remoto (origin)
+git remote add origin myUrl
+
+# modificar una direccion remoto (origin)
+git remote set-url origin myUrl
 
 ```
 

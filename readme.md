@@ -727,6 +727,12 @@ Big Data es un término que describe el gran volumen de datos, tanto estructurad
 * [Coder Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner).
 * [Office Viewer(Markdown Editor)](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-office).
 * [Aprende Node.js y Express - Curso desde Cero](https://www.youtube.com/watch?v=1hpc70_OoAg).
+* Documentación Ofline.
+  * [Zeal (Windows)](https://zealdocs.org/download.html).
+  * [Zeal (Linux)](https://zealdocs.org/download.html#linux).
+  * [Dash (MacOS)](https://kapeli.com/dash).
+* [Node.js para backend (en)](https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-backend)
+* [Mintlify Doc Writer](https://marketplace.visualstudio.com/items?itemName=mintlify.document).
 
 ### Glosario
 

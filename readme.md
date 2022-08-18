@@ -48,6 +48,28 @@ Dentro de node se utilizan los módulos y las callbacks.
   - ES6 Imports.
 - **Callback:** Es una funcion que se pasa como parametro a otra funcion.
 
+#### Diferencias entre Node y JS
+
+**Javascript**
+
+* Funciona en el navegador.
+* JS + web api.
+  * fetch.
+  * settimeout.
+  * addeventlistener.
+  * localstorage.
+
+**Node**
+
+* Funciona en el servidor.
+* JS + modulos de node.
+  * http.
+  * os.
+  * fs.
+  * global.
+  * path.
+
+
 **Modelo cliente servidor**
 
 Es un modelo de arquitectura donde mediante ciertos procolos existen la comunicación en internet. Por un lado, el servidor es una aplicación que ofrece un servicio, mientras que un cliente es quien pide el servicio.
@@ -284,6 +306,35 @@ Cuando el event loop difiere el código y lo pone en espera, puede causar afecta
 ### Conceptos de una API.
 
 Application Programming Interface son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos. Comúnmente el formato de intercambio de datos utilizados es JSON o XML.
+
+**XML**
+
+```
+`<name>`
+    `<nombre>`Luke Skywalker `</nombre>`
+    `<app>`172 `</app>`
+    `<address>`
+        `<street></street>`
+            `<number>`
+                `<int>`B `</int>`
+                `<ext>`990 `</ext>`
+            `</number>`
+    `</address>`
+`</name>`
+```
+
+**JSON**
+
+```
+{
+	"name": "Luke Skywalker",
+	"height": "172",
+	"address": {
+        	street: '',
+        	number: { int: B, ext: 990 },
+    	}
+}
+```
 
 #### Conceptos de una API
 
@@ -675,6 +726,13 @@ Big Data es un término que describe el gran volumen de datos, tanto estructurad
 * [Gitignore.io](https://www.toptal.com/developers/gitignore/).
 * [Coder Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner).
 * [Office Viewer(Markdown Editor)](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-office).
+* [Aprende Node.js y Express - Curso desde Cero](https://www.youtube.com/watch?v=1hpc70_OoAg).
+* Documentación Ofline.
+  * [Zeal (Windows)](https://zealdocs.org/download.html).
+  * [Zeal (Linux)](https://zealdocs.org/download.html#linux).
+  * [Dash (MacOS)](https://kapeli.com/dash).
+* [Node.js para backend (en)](https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-backend)
+* [Mintlify Doc Writer](https://marketplace.visualstudio.com/items?itemName=mintlify.document).
 
 ### Glosario
 

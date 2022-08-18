@@ -1,0 +1,13 @@
+{
+  "name": "es6-import-export-type-module",
+  "version": "1.0.0",
+  "description": "mi descripcion",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "author": "montoyaguzman7",
+  "license": "ISC"
+}

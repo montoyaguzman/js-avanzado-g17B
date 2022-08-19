@@ -1,3 +1,4 @@
+console.log('============== BLOQUE 3 ==============');
 /**
  * Bloque 3 - Solucion 1 Uso de callbacks
  * Un callback es una funcion que se pasa como parametro a otra, con

@@ -8,6 +8,8 @@ console.log('Primero');
 console.log('Segundo');
 console.log('Tercero');
 
+
+console.log('============== BLOQUE 2 ==============');
 /**
  * BLOQUE 2 - Problema tipico de asincronia
  * 

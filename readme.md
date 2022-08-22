@@ -24,11 +24,11 @@ Node es un entorno multiplataforma para ejecutar JavaScript fuera del navegador,
 
 #### **Instalación**
 
-**Versiones válidas:** 12.x.x, 14.x.x y 16.x.x
-
 [Descargar LTS](https://nodejs.org/es/download/)
 node -v
 npm -v
+
+**Versiones válidas:** 12.x.x, 14.x.x y 16.x.x
 
 #### **Que se puede hacer con node**
 
@@ -37,6 +37,8 @@ npm -v
 - Generar páginas dinámicas en un servidor web. => server side render
 - Crear, leer y escribir archivos.
 - Procesar y almacenar archivos enviados desde una página web.
+
+**Elementos de node**
 
 Dentro de node se utilizan los módulos y las callbacks.
 
@@ -68,7 +70,6 @@ Dentro de node se utilizan los módulos y las callbacks.
   * fs.
   * global.
   * path.
-
 
 **Modelo cliente servidor**
 

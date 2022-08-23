@@ -732,8 +732,9 @@ Big Data es un término que describe el gran volumen de datos, tanto estructurad
   * [Zeal (Windows)](https://zealdocs.org/download.html).
   * [Zeal (Linux)](https://zealdocs.org/download.html#linux).
   * [Dash (MacOS)](https://kapeli.com/dash).
-* [Node.js para backend (en)](https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-backend)
+* [Node.js para backend (en)](https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-backend).
 * [Mintlify Doc Writer](https://marketplace.visualstudio.com/items?itemName=mintlify.document).
+* [Metodo patito de goma](https://www.thebrain.school/metodo-patito-goma/#:~:text=Este%20m%C3%A9todo%2C%20incluso%20con%20entrada,pasaba%20inadvertido%20a%20sus%20ojos.).
 
 ### Glosario
 

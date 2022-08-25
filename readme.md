@@ -752,3 +752,4 @@ Big Data es un término que describe el gran volumen de datos, tanto estructurad
 - **Buena práctica:** Es un actividad que se ha demostrado que funciona bien y produce buenos resultados, y, por lo tanto, se recomienda como modelo.
 - **Path:** Es una ruta o dirección donde se encuentra alojado un recurso en un sistema de archivos. Existen rutas relativas como ../../my-docs o absolutas como C:\users\juan\Documents\tarea\tesis.doc
 - **Puerto:** un lugar donde se abre una conexion para acceder a un servicio.
+- **Dummy:** Es un dato o elemento de prueba, sirve para simular datos.

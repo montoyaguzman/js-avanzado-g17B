@@ -1,57 +1,18 @@
 {
 	"info": {
-		"_postman_id": "de3c3e19-7f3a-4a5c-adab-78100f8e1584",
-		"name": "shoes-g16d",
+		"_postman_id": "93cb6f55-c3e5-4a60-bc22-1269a1aba17c",
+		"name": "clase17",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "3934865"
 	},
 	"item": [
 		{
-			"name": "root-dummy",
+			"name": "getAllShoes",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/dummy/hola",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"dummy",
-						"hola"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "getAll",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:3000/shoes",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"shoes"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "getAll with queryParams",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:3000/shoes/?price=1000",
+					"raw": "http://localhost:3000/shoes/",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -60,24 +21,18 @@
 					"path": [
 						"shoes",
 						""
-					],
-					"query": [
-						{
-							"key": "price",
-							"value": "1000"
-						}
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "getOne",
+			"name": "getShoeById",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/shoes/4",
+					"raw": "http://localhost:3000/shoes/3",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -85,20 +40,20 @@
 					"port": "3000",
 					"path": [
 						"shoes",
-						"4"
+						"3"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "create",
+			"name": "createShoe",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"id\": 6,\n    \"brand\": \"punum\",\n    \"price\": 400,\n    \"size\": 21\n}",
+					"raw": "{\n    \"id\": 7,\n    \"brand\": \"por el uno\",\n    \"price\": 2,\n    \"size\": 22\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -121,13 +76,13 @@
 			"response": []
 		},
 		{
-			"name": "partialEdit",
+			"name": "editPartial",
 			"request": {
 				"method": "PATCH",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"brand\": \"floxi 2\"\n}",
+					"raw": "{\n    \"brand\": \"prasa\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -135,7 +90,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/shoes/1",
+					"raw": "http://localhost:3000/shoes/7",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -143,20 +98,20 @@
 					"port": "3000",
 					"path": [
 						"shoes",
-						"1"
+						"7"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "completeEdit",
+			"name": "editComplete",
 			"request": {
 				"method": "PUT",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"brand\": \"juumma\",\n    \"price\": 777,\n    \"size\": 20\n}",
+					"raw": "{\n    \"id\": 10,\n    \"brand\": \"niemblins\",\n    \"price\": 55,\n    \"size\": 29\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -164,7 +119,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/shoes/2",
+					"raw": "http://localhost:3000/shoes/7",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -172,19 +127,19 @@
 					"port": "3000",
 					"path": [
 						"shoes",
-						"2"
+						"7"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "delete",
+			"name": "deleteShoe",
 			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:3000/shoes/1",
+					"raw": "http://localhost:3000/shoes/10",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -192,7 +147,7 @@
 					"port": "3000",
 					"path": [
 						"shoes",
-						"1"
+						"10"
 					]
 				}
 			},

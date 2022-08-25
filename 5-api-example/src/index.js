@@ -12,5 +12,10 @@ app.use(express.json());
 app.listen(port, () => {
     console.log('Servidor express listening...'.rainbow);
 });
+
+// app.get('/', function (req, res) {
+//     res.send('hello world')
+// })
+
 // 6 Agregar el route a la app
 routerApi(app);

@@ -41,13 +41,12 @@ const addProduct = async (req, res) =>{
 const updateProduct = async (req, res) =>{
     try{
         const {sku} = req.params;
-        const { name_product, price } = req.body;
+        const { name_product, price, description_product, url_image } = req.body;
         if (name_product === undefined || price === undefined ){
             res.status(400).json({message:"Bad Request. Please fill all field."})
         }
-        const product = {name_product, price,description_product, url_image };
         const connection = await getConnection();
-        const result = await connection.query("UPDATE products SET ? WHERE sku= ?", [product,sku]);
+        const result = await connection.query("UPDATE products SET `name_product`= ?,`price`=?,`description_product`=?,`url_image`=? WHERE sku= ?", [name_product, price, description_product, url_image,sku]);
         res.json(result)
     }catch (error){
         res.status(500);

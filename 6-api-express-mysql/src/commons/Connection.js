@@ -2,10 +2,10 @@ import mysql from "promise-mysql";
 import config  from "./Constants";
 
 const connection = mysql.createConnection({
-    host: '31.220.104.219',
-    database: 'u917498081_dev_f',
-    user: 'u917498081_js_a',
-    password: '3st43sl4c0ntr4s3N14'
+    host: config.HOST,
+    database: config.DB,
+    user: config.USER,
+    password: config.PASSWORD
 });
 
 const getConnection = () =>{

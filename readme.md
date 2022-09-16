@@ -21,13 +21,24 @@
 ### Node
 
 Node es un entorno multiplataforma para ejecutar JavaScript fuera del navegador, tiene su origen en el 2009 (Ryan Lenhiart).
-Con ayuda de node se puede:
+
+#### **Instalación**
+
+[Descargar LTS](https://nodejs.org/es/download/)
+node -v
+npm -v
+
+**Versiones válidas:** 12.x.x, 14.x.x y 16.x.x
+
+#### **Que se puede hacer con node**
 
 - Realizar API Rest.
 - Acceder a bases de datos relacionales y no relacionales.
 - Generar páginas dinámicas en un servidor web. => server side render
 - Crear, leer y escribir archivos.
 - Procesar y almacenar archivos enviados desde una página web.
+
+**Elementos de node**
 
 Dentro de node se utilizan los módulos y las callbacks.
 
@@ -38,6 +49,27 @@ Dentro de node se utilizan los módulos y las callbacks.
   - Commun JS.
   - ES6 Imports.
 - **Callback:** Es una funcion que se pasa como parametro a otra funcion.
+
+#### Diferencias entre Node y JS
+
+**Javascript**
+
+* Funciona en el navegador.
+* JS + web api.
+  * fetch.
+  * settimeout.
+  * addeventlistener.
+  * localstorage.
+
+**Node**
+
+* Funciona en el servidor.
+* JS + modulos de node.
+  * http.
+  * os.
+  * fs.
+  * global.
+  * path.
 
 **Modelo cliente servidor**
 
@@ -84,14 +116,6 @@ Node package manager es un manejador de paquetes de node y gestor de dependencia
 
 * Un repositorio de paquetes.
 * Un CLI para interactuar con el repo y el proyecto.
-
-#### **Instalación**
-
-**Versiones válidas:** 12.x.x, 14.x.x y 16.x.x
-
-[Descargar LTS](https://nodejs.org/es/download/)
-node -v
-npm -v
 
 #### **Paquetes**
 
@@ -169,6 +193,7 @@ A continuación se presenta un listado de los framework front y back mas popular
 * [EJS](https://ejs.co/#docs).
 * [Nuxt](https://nuxtjs.org/docs/get-started/installation).
 * [Next](https://nextjs.org/docs).
+* [Hbs](https://bluuweb.github.io/node/20-hbs/).
 
 #### **Semantic Versión**
 
@@ -282,6 +307,35 @@ Cuando el event loop difiere el código y lo pone en espera, puede causar afecta
 ### Conceptos de una API.
 
 Application Programming Interface son mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos. Comúnmente el formato de intercambio de datos utilizados es JSON o XML.
+
+**XML**
+
+```
+`<name>`
+    `<nombre>`Luke Skywalker `</nombre>`
+    `<app>`172 `</app>`
+    `<address>`
+        `<street></street>`
+            `<number>`
+                `<int>`B `</int>`
+                `<ext>`990 `</ext>`
+            `</number>`
+    `</address>`
+`</name>`
+```
+
+**JSON**
+
+```
+{
+	"name": "Luke Skywalker",
+	"height": "172",
+	"address": {
+        	street: '',
+        	number: { int: B, ext: 990 },
+    	}
+}
+```
 
 #### Conceptos de una API
 
@@ -535,6 +589,12 @@ git fetch && git checkout develop
 #  bajar cambios de una rama remota a una local (cuando ya existe)
 git pull origin branchName
 
+# agregar una direccion remoto (origin)
+git remote add origin myUrl
+
+# modificar una direccion remoto (origin)
+git remote set-url origin myUrl
+
 ```
 
 #### Administración de ramas
@@ -667,6 +727,14 @@ Big Data es un término que describe el gran volumen de datos, tanto estructurad
 * [Gitignore.io](https://www.toptal.com/developers/gitignore/).
 * [Coder Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner).
 * [Office Viewer(Markdown Editor)](https://marketplace.visualstudio.com/items?itemName=cweijan.vscode-office).
+* [Aprende Node.js y Express - Curso desde Cero](https://www.youtube.com/watch?v=1hpc70_OoAg).
+* Documentación Ofline.
+  * [Zeal (Windows)](https://zealdocs.org/download.html).
+  * [Zeal (Linux)](https://zealdocs.org/download.html#linux).
+  * [Dash (MacOS)](https://kapeli.com/dash).
+* [Node.js para backend (en)](https://www.simplilearn.com/tutorials/nodejs-tutorial/nodejs-backend).
+* [Mintlify Doc Writer](https://marketplace.visualstudio.com/items?itemName=mintlify.document).
+* [Metodo patito de goma](https://www.thebrain.school/metodo-patito-goma/#:~:text=Este%20m%C3%A9todo%2C%20incluso%20con%20entrada,pasaba%20inadvertido%20a%20sus%20ojos.).
 
 ### Glosario
 
@@ -684,3 +752,4 @@ Big Data es un término que describe el gran volumen de datos, tanto estructurad
 - **Buena práctica:** Es un actividad que se ha demostrado que funciona bien y produce buenos resultados, y, por lo tanto, se recomienda como modelo.
 - **Path:** Es una ruta o dirección donde se encuentra alojado un recurso en un sistema de archivos. Existen rutas relativas como ../../my-docs o absolutas como C:\users\juan\Documents\tarea\tesis.doc
 - **Puerto:** un lugar donde se abre una conexion para acceder a un servicio.
+- **Dummy:** Es un dato o elemento de prueba, sirve para simular datos.

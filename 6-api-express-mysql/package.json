@@ -1,0 +1,25 @@
+{
+  "name": "6-api-express-mysql",
+  "version": "1.0.0",
+  "description": "API RESTful using express and connected to database (MySQL)",
+  "main": "index.js",
+  "scripts": {
+    "product": "babel-node --presets=@babel/preset-env",
+    "dev": "nodemon --exec npm run product src/index.js"
+  },
+  "author": "Daniel Gloria Florencio",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "promise-mysql": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.13",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
